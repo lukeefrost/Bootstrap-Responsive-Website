@@ -135,6 +135,66 @@ h3.heading {
     margin: 2rem;
 }
 
+/*--- Contact --*/
+
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #1ebba3;
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+    text-align: center;
+}
+
+/*--- Media Queries --*/
+
+@media (max-width: 767px) {
+  .carousel-caption h1 {
+      font-size: 2.3rem;
+      letter-spacing: .15rem;
+      padding-bottom: 5rem;
+  }
+
+  .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+  .p lead {
+    font-size: 1rem;
+  }
+}
+
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
